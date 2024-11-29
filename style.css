@@ -102,7 +102,7 @@ footer {
 /* PC用ロゴサイズ（画面幅1024px以上） */
 @media (min-width: 1024px) {
     header .logo {
-         width: 60px; /* PCで確実に60pxに縮小 */
+         width: 240px; /* PCで確実に60pxに縮小 */
         max-width: none; /* max-width を無効化 */
     }
 }
