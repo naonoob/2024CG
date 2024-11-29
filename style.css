@@ -94,6 +94,14 @@ main {
     margin-top: 0;
 }
 
+.menu-item img {
+    width: 100%; /* 画像をメニューカード内でフィットさせる */
+    max-height: 150px; /* 高さ制限を設定 */
+    object-fit: cover; /* 画像を切り取らずにフィット */
+    border-radius: 5px; /* 角を丸める */
+    margin-bottom: 0.5rem; /* 画像とタイトルの間に余白 */
+}
+
 /* フッター */
 footer {
     text-align: center;
