@@ -28,9 +28,13 @@ header h1 {
 }
 
 header p {
-    color: #FFA500;
-    font-size: 1.2rem;
-    margin: 0;
+    color: white; /* 文字色を白に設定 */
+    background-color: rgba(128, 128, 128, 0.5); /* 灰色（半透明） */
+    padding: 0.5rem 1rem; /* 文字の周りに余白を設定 */
+    border-radius: 5px; /* 背景の角を少し丸める */
+    display: inline-block; /* 背景を文字の幅に合わせる */
+    font-size: 1.2rem; /* 必要に応じてフォントサイズを調整 */
+    margin: 0; /* 不要な余白を削除 */
 }
 
 /* ナビゲーション */
